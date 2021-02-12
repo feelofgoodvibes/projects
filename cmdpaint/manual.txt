@@ -1,0 +1,24 @@
+Key -  Function
+===========================
+1 - Draw 1 color
+2 - Draw 2 color
+3 - Draw 3 color
+4 - Draw 4 color
+5 - Draw 5 color
+6 - Draw 6 color
+
+Shift + 1 - Change symbol of 1 color
+Shift + 2 - Change symbol of 1 color
+Shift + 3 - Change symbol of 1 color
+Shift + 4 - Change symbol of 1 color
+Shift + 5 - Change symbol of 1 color
+Shift + 6 - Change symbol of 1 color
+
+C - Clear canvas
+F - Fill canvas
+E - Erase pixel
+T - Hide / Unhide GUI
+Shift - Update canvas
+
+S - Save art to file
+O - Open art from file

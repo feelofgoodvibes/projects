@@ -1,0 +1,5 @@
+gcc -std=c11 -m32 -c additional_functions.c canvas.c core.c terminal.c
+windres cmdres.rc -O coff -F pe-i386 -o cmdres.res
+gcc additional_functions.o canvas.o core.o terminal.o cmdres.res -m32 -std=c11 -o CMDPaint
+
+gcc -std=c11 -m32 -c additional_functions.c canvas.c core.c terminal.c && gcc additional_functions.o canvas.o core.o terminal.o cmdres.res -m32 -std=c11 -o CMDPaint && CMDPaint.exe
